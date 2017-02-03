@@ -270,7 +270,7 @@ var FollowShows = (function () {
 
 	var config = {
 			el: '#following-shows',
-			apiUrl: 'http://api.tvmaze.com/shows/'
+			apiUrl: 'https://api.tvmaze.com/shows/'
 		},
 		following = [];
 
@@ -563,7 +563,7 @@ var TvListing = (function () {
 	var config = {
 		el: '#tv-listing',
 		followBtn: '.followShow-js',
-		apiUrl: 'http://api.tvmaze.com/schedule?country=US&date='
+		apiUrl: 'https://api.tvmaze.com/schedule?country=US&date='
 	};
 
 	function init () {
