@@ -1,0 +1,23 @@
+Pages & Features
+
+# TV Listing
+KIV: hide shows, but allow users to easily see this list (FOMO)
+
+# Favourites / Following
+x List all favourite shows
+- show "Up to date" or "X episodes behind"
+- show yet-to-watch episodes
+
+# Individual show page
+- upcoming episode or "Season Status" (How to see if a show has been cancelled)
+x list recent season's episodes
+-- upcoming
+-- previous
+- list previous seasons -> show page > season #
+x Mark as Watched
+
+# Search shows
+- Mark as Following -> Shows up on TV Listing
+
+Engineering
+- Router

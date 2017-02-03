@@ -1,0 +1,85 @@
+<!doctype HTML>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Shows on TV</title>
+	<meta name="description" content="Shows currently on TV">
+	<meta name="author" content="Terence Tham">
+
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="vendor/pikaday.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style>
+		.media-object img {
+			height: 120px;
+		}
+
+		.is-following.is-following {
+			background-color: #ffae00;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.is-watched.is-watched {
+			background-color: #3adb76;
+		}
+
+		.button {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="top-bar">
+		<div class="top-bar-left">
+			<ul class="dropdown menu" data-dropdown-menu>
+				<li class="menu-text">Shows on TV</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="columns small-12">
+			<nav id="mainNav-js">
+				<ul class="menu">
+					<li class="active"><a href="#/listing">TV Listings</a></li>
+					<li><a href="#/following">Following</a></li>
+					<li><a href="#/search">Search</a></li>
+					<li><a href="#/settings">Settings</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	
+
+	<div class="row">
+		<div class="columns small-12">
+			<div id="date-picker" style="text-align: center">
+				<a id="prev-date-js" class="medium button"><</a>
+
+				<input id="today-js" type="text" style="display: inline-block; width: 80%">
+
+				<a id="next-date-js" class="medium button">></a>
+			</div>
+			<div id="page-view"></div>
+		
+		</div>
+	</div>
+
+
+	<script src="vendor/pikaday.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
